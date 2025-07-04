@@ -1,0 +1,21 @@
+1. conda config --set auto_activate_base True/False
+-Activating conda by default everytime a terminal opens
+
+# Replace <PATH_TO_CONDA> with the path to your conda install
+source <PATH_TO_CONDA>/bin/activate
+conda init --all
+
+ENVIRONMENT CREATION
+2. conda create -p venv python==version(if any)
+
+3. Environment creation using conda
+
+    conda env export --prefix /Users/daniel/Desktop/project_1/env > environment.yml 
+
+        To create a YAM-L file with instruction to conda on how to set up an environment in some other machine 
+        similar to pip freeze
+
+    conda env create --file environment.yml --name env_from_file 
+
+        To create the environment using YAM-L file 
+4. 
