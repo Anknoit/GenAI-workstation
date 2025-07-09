@@ -1,0 +1,5 @@
+1. CORPUS - Paragraph
+2. Documents - Sentence
+3. Vocabluary - Unique words, count of no repeating words
+4. Words
+5. Tokenizations - Paragraph to sentence(sepaarating by fullstop), Sentence to words, words to alphapets. 
