@@ -2,4 +2,6 @@
 2. Documents - Sentence
 3. Vocabluary - Unique words, count of no repeating words
 4. Words
-5. Tokenizations - Paragraph to sentence(sepaarating by fullstop), Sentence to words, words to alphapets. 
+5. Tokenizations - Breaking a stream of text into smaller units called "Tokens", Paragraph to sentence(sepaarating by fullstop), Sentence to words, words to alphapets.
+6. Techniques hierarchy (Accuracy from low to HIGH)
+Tokenizations, Lemmatizations (Input Cleaning) ---> BOW, TF-IDF (Input to Vectors) ---> word2vec, avgword2vec (Input to Vectors) ---> RNN, LSTM, (Deep Learning) ---> Word Embeddings(Input to vectors) ----> Transformers ----> BERT
